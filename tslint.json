@@ -45,7 +45,7 @@
         "no-use-before-declare": true,
         "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
         "one-variable-per-declaration": true,
-        "object-literal-key-quotes": true,
+        "object-literal-key-quotes": [true, "as-needed"],
         "no-var-keyword": true,
         "prefer-const": true,
         "adjacent-overload-signatures": true,
