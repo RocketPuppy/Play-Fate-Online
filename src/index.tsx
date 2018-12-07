@@ -1,9 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Hello } from "./hello";
+import App from "./app";
 
-ReactDOM.render(
-  <Hello compiler="TypeScript" framework="React" />,
-  document.getElementById("inject-here")
-);
+ReactDOM.render(<App />, document.getElementById("inject-here"));
