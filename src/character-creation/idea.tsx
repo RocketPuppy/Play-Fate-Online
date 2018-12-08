@@ -11,6 +11,7 @@ class IdeaForm extends StatefulForm<IdeaFields> {}
 
 export default () => (
   <div>
+    <h2>Character Idea</h2>
     <IdeaForm
       initialValues={{}}
       FormComponent={({ fields: { highConcept, trouble, name }, onChange }) => (
