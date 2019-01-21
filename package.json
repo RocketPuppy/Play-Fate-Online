@@ -6,6 +6,7 @@
   "author": "Daniel Wilson-Thomas <danielwilsonthomas@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "firebase": "^5.8.0",
     "ramda": "^0.26.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
