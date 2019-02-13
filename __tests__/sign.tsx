@@ -13,3 +13,9 @@ test("sign renders a minus when number is negative", () => {
 
   expect(negativeSign.toJSON()).toMatchSnapshot();
 });
+
+test("sign renders nothing when number is 0", () => {
+  const noSign = renderer.create(<Sign num={0} />);
+
+  expect(noSign.toJSON()).toMatchSnapshot();
+});

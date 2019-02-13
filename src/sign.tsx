@@ -4,5 +4,12 @@ interface SignProps {
   num: number;
 }
 
-export default ({ num }: SignProps) =>
-  num >= 0 ? <span>+</span> : <span>-</span>;
+export default ({ num }: SignProps) => {
+  if (num === 0) {
+    return <span />;
+  }
+  if (num > 0) {
+    return <span>+</span>;
+  }
+  return <span>-</span>;
+};
