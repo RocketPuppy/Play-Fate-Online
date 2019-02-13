@@ -1,0 +1,1178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/ renders only links 1`] = `
+<div>
+  <a
+    href="/create"
+    onClick={[Function]}
+  >
+    Create your character
+  </a>
+  <a
+    href="/cheat-sheet"
+    onClick={[Function]}
+  >
+    Cheat sheet
+  </a>
+  <a
+    href="/character"
+    onClick={[Function]}
+  >
+    Your character
+  </a>
+</div>
+`;
+
+exports[`/character routes to character page 1`] = `
+<div>
+  <a
+    href="/create"
+    onClick={[Function]}
+  >
+    Create your character
+  </a>
+  <a
+    href="/cheat-sheet"
+    onClick={[Function]}
+  >
+    Cheat sheet
+  </a>
+  <a
+    href="/character"
+    onClick={[Function]}
+  >
+    Your character
+  </a>
+  <div>
+    <h1>
+      Character Sheet
+    </h1>
+    <div>
+      <h2>
+        Id
+      </h2>
+      <div>
+        <label>
+          <span>
+            Name
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="Landon"
+            type="text"
+          />
+        </label>
+        <label>
+          <span>
+            Description
+          </span>
+          <textarea
+            onChange={[Function]}
+            placeholder="A rough-mannered swordsman covered in ragged clothing."
+          />
+        </label>
+        <label>
+          <span>
+            Refresh
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="3"
+            type="number"
+          />
+        </label>
+      </div>
+    </div>
+    <div>
+      <h2>
+        Aspects
+      </h2>
+      <div>
+        <label>
+          <span>
+            High Concept
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="Disciple of the Ivory Shroud"
+            type="text"
+            value=""
+          />
+        </label>
+        <label>
+          <span>
+            Trouble
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="The manners of a goat"
+            type="text"
+            value=""
+          />
+        </label>
+        <label>
+          <span>
+            New Aspect
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="I owe Old Finn everything"
+            type="text"
+            value=""
+          />
+        </label>
+        <button
+          disabled={true}
+          onClick={[Function]}
+        >
+          Save Aspect
+        </button>
+      </div>
+    </div>
+    <div>
+      <h2>
+        Skills
+      </h2>
+      <form>
+        <label>
+          <span>
+            Superb
+          </span>
+          <span>
+            (
+            <span>
+              +
+            </span>
+            5
+            )
+          </span>
+          <form>
+            <input
+              defaultValue=""
+              onChange={[Function]}
+              placeholder="Athletics"
+              type="text"
+            />
+            <button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Add Skill
+            </button>
+          </form>
+        </label>
+        <label>
+          <span>
+            Great
+          </span>
+          <span>
+            (
+            <span>
+              +
+            </span>
+            4
+            )
+          </span>
+          <form>
+            <input
+              defaultValue=""
+              onChange={[Function]}
+              placeholder="Athletics"
+              type="text"
+            />
+            <button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Add Skill
+            </button>
+          </form>
+        </label>
+        <label>
+          <span>
+            Good
+          </span>
+          <span>
+            (
+            <span>
+              +
+            </span>
+            3
+            )
+          </span>
+          <form>
+            <input
+              defaultValue=""
+              onChange={[Function]}
+              placeholder="Athletics"
+              type="text"
+            />
+            <button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Add Skill
+            </button>
+          </form>
+        </label>
+        <label>
+          <span>
+            Fair
+          </span>
+          <span>
+            (
+            <span>
+              +
+            </span>
+            2
+            )
+          </span>
+          <form>
+            <input
+              defaultValue=""
+              onChange={[Function]}
+              placeholder="Athletics"
+              type="text"
+            />
+            <button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Add Skill
+            </button>
+          </form>
+        </label>
+        <label>
+          <span>
+            Average
+          </span>
+          <span>
+            (
+            <span>
+              +
+            </span>
+            1
+            )
+          </span>
+          <form>
+            <input
+              defaultValue=""
+              onChange={[Function]}
+              placeholder="Athletics"
+              type="text"
+            />
+            <button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Add Skill
+            </button>
+          </form>
+        </label>
+      </form>
+    </div>
+    <div>
+      <h2>
+        Stunts
+      </h2>
+      <form>
+        <div>
+          <div>
+            <label>
+              <span>
+                Name
+              </span>
+              <input
+                defaultValue=""
+                onChange={[Function]}
+                placeholder="Lucky"
+                type="text"
+              />
+            </label>
+            <label>
+              <span>
+                Description
+              </span>
+              <textarea
+                onChange={[Function]}
+                placeholder="Once per session you may roll a single dice to resolve a test. If you don't fail, succeed with style automatically."
+                value=""
+              />
+            </label>
+            <button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Add new stunt
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div>
+      <h2>
+        Extras
+      </h2>
+      <form>
+        <div>
+          <div>
+            <label>
+              <span>
+                Name
+              </span>
+              <input
+                defaultValue=""
+                onChange={[Function]}
+                placeholder="Izanagi"
+                type="text"
+              />
+            </label>
+            <label>
+              <span>
+                Description
+              </span>
+              <textarea
+                onChange={[Function]}
+                placeholder="Izanagi is available to help out during conflicts"
+                value=""
+              />
+            </label>
+            <button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Add new extra
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div>
+      <h2>
+        Physical Stress (Physique)
+      </h2>
+      <div>
+        <label>
+          <span>
+            1
+          </span>
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+        <label>
+          <span>
+            2
+          </span>
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+        <button
+          onClick={[Function]}
+        >
+          Add Stress
+        </button>
+      </div>
+    </div>
+    <div>
+      <h2>
+        Mental Stress (Will)
+      </h2>
+      <div>
+        <label>
+          <span>
+            1
+          </span>
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+        <label>
+          <span>
+            2
+          </span>
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+        <button
+          onClick={[Function]}
+        >
+          Add Stress
+        </button>
+      </div>
+    </div>
+    <div>
+      <h2>
+        Consequences
+      </h2>
+      <div>
+        <h3>
+          Normal
+        </h3>
+        <div>
+          <label>
+            <span>
+              2
+            </span>
+            <span>
+              Mild
+            </span>
+            <input
+              defaultValue=""
+              onChange={[Function]}
+              type="text"
+            />
+          </label>
+          <label>
+            <span>
+              4
+            </span>
+            <span>
+              Moderate
+            </span>
+            <input
+              defaultValue=""
+              onChange={[Function]}
+              type="text"
+            />
+          </label>
+          <label>
+            <span>
+              6
+            </span>
+            <span>
+              Severe
+            </span>
+            <input
+              defaultValue=""
+              onChange={[Function]}
+              type="text"
+            />
+          </label>
+        </div>
+        <h3>
+          Physical
+        </h3>
+        <div />
+        <button
+          onClick={[Function]}
+        >
+          Add Consequence
+        </button>
+        <h3>
+          Mental
+        </h3>
+        <div />
+        <button
+          onClick={[Function]}
+        >
+          Add Consequence
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`/cheat-sheet routes to cheat sheet 1`] = `
+<div>
+  <a
+    href="/create"
+    onClick={[Function]}
+  >
+    Create your character
+  </a>
+  <a
+    href="/cheat-sheet"
+    onClick={[Function]}
+  >
+    Cheat sheet
+  </a>
+  <a
+    href="/character"
+    onClick={[Function]}
+  >
+    Your character
+  </a>
+  <div>
+    <h1>
+      Cheat Sheet
+    </h1>
+    <div>
+      <h2>
+        The Ladder
+      </h2>
+      <dl>
+        <dt>
+          +8
+        </dt>
+        <dd>
+          Legendary
+        </dd>
+        <dt>
+          +7
+        </dt>
+        <dd>
+          Epic
+        </dd>
+        <dt>
+          +6
+        </dt>
+        <dd>
+          Fantastic
+        </dd>
+        <dt>
+          +5
+        </dt>
+        <dd>
+          Superb
+        </dd>
+        <dt>
+          +4
+        </dt>
+        <dd>
+          Great
+        </dd>
+        <dt>
+          +3
+        </dt>
+        <dd>
+          Good
+        </dd>
+        <dt>
+          +2
+        </dt>
+        <dd>
+          Fair
+        </dd>
+        <dt>
+          +1
+        </dt>
+        <dd>
+          Average
+        </dd>
+        <dt>
+          +0
+        </dt>
+        <dd>
+          Mediocre
+        </dd>
+        <dt>
+          -1
+        </dt>
+        <dd>
+          Poor
+        </dd>
+        <dt>
+          -2
+        </dt>
+        <dd>
+          Terrible
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Game Time
+      </h2>
+      <dl>
+        <dt>
+          Exchange
+        </dt>
+        <dd>
+          time for everyone to get a turn
+        </dd>
+        <dt>
+          Scene
+        </dt>
+        <dd>
+          time to resolve a situation
+        </dd>
+        <dt>
+          Session
+        </dt>
+        <dd>
+          a single sitting
+        </dd>
+        <dt>
+          Scenario
+        </dt>
+        <dd>
+          an episode
+        </dd>
+        <dt>
+          Arc
+        </dt>
+        <dd>
+          a season
+        </dd>
+        <dt>
+          Campaign
+        </dt>
+        <dd>
+          the entire game in a particular setting
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Skill Roll
+      </h2>
+      <p>
+        Roll four 
+        <em>
+          Fate dice
+        </em>
+         and add to 
+        <em>
+          skill rating
+        </em>
+        . Compare to opposition. For each step on the ladder greater than your opposition, you earn a 
+        <em>
+          shift
+        </em>
+        .
+      </p>
+    </div>
+    <div>
+      <h2>
+        Opposition Types
+      </h2>
+      <dl>
+        <dt>
+          Active
+        </dt>
+        <dd>
+          another character rolls against you
+        </dd>
+        <dt>
+          Passive
+        </dt>
+        <dd>
+          a static rating on the ladder
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Four Outcomes
+      </h2>
+      <dl>
+        <dt>
+          Fail
+        </dt>
+        <dd>
+          fail your action or succeed at major cost
+        </dd>
+        <dt>
+          Tie (0)
+        </dt>
+        <dd>
+          succeed at minor cost
+        </dd>
+        <dt>
+          Succeed (1—2)
+        </dt>
+        <dd>
+          succeed with no cost
+        </dd>
+        <dt>
+          Succeed with Style (&gt;3)
+        </dt>
+        <dd>
+          succeed with additional benefit
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Four Actions
+      </h2>
+      <dl>
+        <dt>
+          Overcome
+        </dt>
+        <dd>
+          get past an obstacle
+        </dd>
+        <dt>
+          Create an Advantage
+        </dt>
+        <dd>
+          invoke an aspect for free
+        </dd>
+        <dt>
+          Attack
+        </dt>
+        <dd>
+          harm another character
+        </dd>
+        <dt>
+          Defend
+        </dt>
+        <dd>
+          prevent attacks or advantages on you
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Mitigating Damage
+      </h2>
+      <p>
+        Fill in one stress box greater than or equal to the value of an attack, take one or more consequence, or fill in one stress box and take consequences—if you can’t do one of these three things, you’re taken out.
+      </p>
+    </div>
+    <div>
+      <h2>
+        Consequences
+      </h2>
+      <dl>
+        <dt>
+          Mild
+        </dt>
+        <dd>
+          -2 to attack value
+        </dd>
+        <dt>
+          Moderate
+        </dt>
+        <dd>
+          -4 to attack value
+        </dd>
+        <dt>
+          Severe
+        </dt>
+        <dd>
+          -6 to attack value
+        </dd>
+        <dt>
+          Extreme
+        </dt>
+        <dd>
+          -8 to attack value and permanent character aspect
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Recovery
+      </h2>
+      <dl>
+        <dt>
+          Mild
+        </dt>
+        <dd>
+          Overcome Fair, one whole scene
+        </dd>
+        <dt>
+          Moderate
+        </dt>
+        <dd>
+          Overcome Great, one whole session
+        </dd>
+        <dt>
+          Severe
+        </dt>
+        <dd>
+          overcome Fantastic, one whole scenario
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Aspect Types
+      </h2>
+      <dl>
+        <dt>
+          Game aspects
+        </dt>
+        <dd>
+          permanent, made during game creation
+        </dd>
+        <dt>
+          Character aspects
+        </dt>
+        <dd>
+          permanent, made during character creation
+        </dd>
+        <dt>
+          Situation aspects
+        </dt>
+        <dd>
+          last for a scene, until overcome, or until irrelevant
+        </dd>
+        <dt>
+          Boosts
+        </dt>
+        <dd>
+          last until invoked one time
+        </dd>
+        <dt>
+          Consequences
+        </dt>
+        <dd>
+          last until recovered
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Invoking Aspects
+      </h2>
+      <p>
+        Spend a fate point or free invoke. Choose one of the following:
+      </p>
+      <ul>
+        <li>
+          +2 to your skill roll
+        </li>
+        <li>
+          Reroll all your dice
+        </li>
+        <li>
+          Teamwork: +2 to another character's skill roll versus relevant passive opposition
+        </li>
+        <li>
+          Obstacle: +2 to the passive opposition
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>
+        Compelling Aspects
+      </h2>
+      <p>
+        Accept a complication for a fate point.
+      </p>
+      <dl>
+        <dt>
+          Event-based
+        </dt>
+        <dd>
+          You have ____ aspect and are in ____ situation, so it makes sense that, unfortunately, ____ would happen to you. Damn your luck.
+        </dd>
+        <dt>
+          Decision-based
+        </dt>
+        <dd>
+          You have ____ aspect in ____ situation, so it makes sense that you’d decide to ____. This goes wrong when ____ happens.
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h2>
+        Refresh
+      </h2>
+      <p>
+        At the start of a new session, you reset your fate points to your refresh rate. If you ended the last session with more points, you keep the extra. At the end of a scenario, you reset to your refresh rate no matter what.
+      </p>
+    </div>
+    <div>
+      <h2>
+        Spending Fate Points
+      </h2>
+      <p>
+        Spend fate points to
+      </p>
+      <ul>
+        <li>
+          Invoke an aspect
+        </li>
+        <li>
+          Power a stunt
+        </li>
+        <li>
+          Refuse a compel
+        </li>
+        <li>
+          Declare a story detail
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>
+        Challenges
+      </h2>
+      <ul>
+        <li>
+          Each obstacle or goal that requires a different skill gets an overcome roll.
+        </li>
+        <li>
+          Interpret failure, costs, and success of each roll together to determine final outcome.
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>
+        Contests
+      </h2>
+      <ul>
+        <li>
+          Contesting characters roll appropriate skills.
+        </li>
+        <li>
+          If you got the highest result, you score a victory.
+        </li>
+        <li>
+          If you succeed with style and no one else does, then you get two victories.
+        </li>
+        <li>
+          If there's a tie for the highest result, no one gets a victory, and an unexpected twist occurs.
+        </li>
+        <li>
+          The first participant to achieve three victories wins the contest.
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>
+        Conflicts
+      </h2>
+      <ul>
+        <li>
+          Set the scene, describing the environment the conflict takes place in, cre- ating situation aspects and zones, and establishing who’s participating and what side they’re on.
+        </li>
+        <li>
+          Determine the turn order.
+        </li>
+        <li>
+          Start the first exchange:
+        </li>
+        <ul>
+          <li>
+            On your turn, take an action and then resolve it.
+          </li>
+          <li>
+            On other people’s turns, defend or respond to their actions as necessary.
+          </li>
+          <li>
+            At the end of everyone’s turn, start again with a new exchange.
+          </li>
+        </ul>
+        <li>
+          Conflict is over when everyone on one side has conceded or been taken out.
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>
+        Earning Fate Points
+      </h2>
+      <p>
+        Earn fate points when you:
+      </p>
+      <ul>
+        <li>
+          Accept a compel
+        </li>
+        <li>
+          Have your aspects invoked against you
+        </li>
+        <li>
+          Concede a conflict
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`/create routes to character create 1`] = `
+<div>
+  <a
+    href="/create"
+    onClick={[Function]}
+  >
+    Create your character
+  </a>
+  <a
+    href="/cheat-sheet"
+    onClick={[Function]}
+  >
+    Cheat sheet
+  </a>
+  <a
+    href="/character"
+    onClick={[Function]}
+  >
+    Your character
+  </a>
+  <div>
+    <h1>
+      Character Creation
+    </h1>
+    <div>
+      <h2>
+        Character Idea
+      </h2>
+      <div>
+        <label>
+          <span>
+            High Concept
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="Disciple of the Ivory Shroud"
+            type="text"
+          />
+        </label>
+        <label>
+          <span>
+            Trouble
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="The manners of a goat"
+            type="text"
+          />
+        </label>
+        <label>
+          <span>
+            Name
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="Landon"
+            type="text"
+          />
+        </label>
+      </div>
+    </div>
+    <div>
+      <h2>
+        Phase Trio
+      </h2>
+      <div>
+        <label>
+          <span>
+            Phase 1: Your Adventure
+          </span>
+          <textarea
+            onChange={[Function]}
+            placeholder="Landon gets into a bar fight with some of the scar triad. He is robbed of his sword and beaten severely. His life is saved by a veteran soldier named Old Finn. Finn helps to heal Landon, clean him up, and enlist him in the town militia."
+          />
+        </label>
+        <label>
+          <span>
+            Phase 1: Aspect
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="I owe old Finn everything"
+            type="text"
+          />
+        </label>
+        <label>
+          <span>
+            Phase 2: First Crossing Paths
+          </span>
+          <textarea
+            onChange={[Function]}
+            placeholder="Zird the Arcane hires Landon to quietly break into the Tower of Unrest at the Collegia. When their cover is blown, Landon kicks out the tower’s supporting pillars. The two escape as the structure comes crashing down."
+          />
+        </label>
+        <label>
+          <span>
+            Phase 2: Aspect
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="Smashing is always an option"
+            type="text"
+          />
+        </label>
+        <label>
+          <span>
+            Phase 3: Second Crossing Paths
+          </span>
+          <textarea
+            onChange={[Function]}
+            placeholder="Cynere drags Landon into a bar fight with warriors from the Dianan Sisterhood. He gets cut across one eye, leaving him half-blinded and scarred. Later, she provides him the chance for vengeance by helping her steal an artifact from them."
+          />
+        </label>
+        <label>
+          <span>
+            Phase 3: Aspect
+          </span>
+          <input
+            onChange={[Function]}
+            placeholder="An eye for an eye"
+            type="text"
+          />
+        </label>
+      </div>
+    </div>
+    <div>
+      <h2>
+        Skills
+      </h2>
+      <ul>
+        <li>
+          One at Great (+4)
+        </li>
+        <li>
+          Two at Good (+3)
+        </li>
+        <li>
+          Three at Fair (+2)
+        </li>
+        <li>
+          Four at Average (+1)
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>
+        Stunts and Refresh
+      </h2>
+      <ul>
+        <li>
+          Three stunts = Refresh of 3
+        </li>
+        <li>
+          Four stunts = Refresh of 2
+        </li>
+        <li>
+          Five stunts = Refresh of 1
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>
+        Stress & Consequences
+      </h2>
+      <ul>
+        <li>
+          Average or Fair Physique gives you a 3-point physical stress box.
+        </li>
+        <li>
+          Good or Great Physique gives you a 3-point and 4-point physical stress box.
+        </li>
+        <li>
+          Superb+ Physique gives you a 3-point and 4-point physical stress box and an additional mild consequence slot.
+        </li>
+        <li>
+          Average or Fair Will gives you a 3-point mental stress box.
+        </li>
+        <li>
+          Good or Great Will gives you a 3-point and 4-point mental stress box.
+        </li>
+        <li>
+          Superb+ Will gives you a 3-point and 4-point mental stress box and an additional mild consequence slot.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
