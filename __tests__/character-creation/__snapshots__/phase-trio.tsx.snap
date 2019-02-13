@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h2>
+    Phase Trio
+  </h2>
+  <div>
+    <label>
+      <span>
+        Phase 1: Your Adventure
+      </span>
+      <textarea
+        onChange={[Function]}
+        placeholder="Landon gets into a bar fight with some of the scar triad. He is robbed of his sword and beaten severely. His life is saved by a veteran soldier named Old Finn. Finn helps to heal Landon, clean him up, and enlist him in the town militia."
+      />
+    </label>
+    <label>
+      <span>
+        Phase 1: Aspect
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="I owe old Finn everything"
+        type="text"
+      />
+    </label>
+    <label>
+      <span>
+        Phase 2: First Crossing Paths
+      </span>
+      <textarea
+        onChange={[Function]}
+        placeholder="Zird the Arcane hires Landon to quietly break into the Tower of Unrest at the Collegia. When their cover is blown, Landon kicks out the tower’s supporting pillars. The two escape as the structure comes crashing down."
+      />
+    </label>
+    <label>
+      <span>
+        Phase 2: Aspect
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="Smashing is always an option"
+        type="text"
+      />
+    </label>
+    <label>
+      <span>
+        Phase 3: Second Crossing Paths
+      </span>
+      <textarea
+        onChange={[Function]}
+        placeholder="Cynere drags Landon into a bar fight with warriors from the Dianan Sisterhood. He gets cut across one eye, leaving him half-blinded and scarred. Later, she provides him the chance for vengeance by helping her steal an artifact from them."
+      />
+    </label>
+    <label>
+      <span>
+        Phase 3: Aspect
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="An eye for an eye"
+        type="text"
+      />
+    </label>
+  </div>
+</div>
+`;
