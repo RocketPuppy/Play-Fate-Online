@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h2>
+    Spending Fate Points
+  </h2>
+  <p>
+    Spend fate points to
+  </p>
+  <ul>
+    <li>
+      Invoke an aspect
+    </li>
+    <li>
+      Power a stunt
+    </li>
+    <li>
+      Refuse a compel
+    </li>
+    <li>
+      Declare a story detail
+    </li>
+  </ul>
+</div>
+`;

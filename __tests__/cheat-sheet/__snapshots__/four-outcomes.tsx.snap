@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h2>
+    Four Outcomes
+  </h2>
+  <dl>
+    <dt>
+      Fail
+    </dt>
+    <dd>
+      fail your action or succeed at major cost
+    </dd>
+    <dt>
+      Tie (0)
+    </dt>
+    <dd>
+      succeed at minor cost
+    </dd>
+    <dt>
+      Succeed (1—2)
+    </dt>
+    <dd>
+      succeed with no cost
+    </dd>
+    <dt>
+      Succeed with Style (&gt;3)
+    </dt>
+    <dd>
+      succeed with additional benefit
+    </dd>
+  </dl>
+</div>
+`;

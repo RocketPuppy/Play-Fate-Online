@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h2>
+    Opposition Types
+  </h2>
+  <dl>
+    <dt>
+      Active
+    </dt>
+    <dd>
+      another character rolls against you
+    </dd>
+    <dt>
+      Passive
+    </dt>
+    <dd>
+      a static rating on the ladder
+    </dd>
+  </dl>
+</div>
+`;

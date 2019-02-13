@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h1>
+    Cheat Sheet
+  </h1>
+  <div>
+    <h2>
+      The Ladder
+    </h2>
+    <dl>
+      <dt>
+        +8
+      </dt>
+      <dd>
+        Legendary
+      </dd>
+      <dt>
+        +7
+      </dt>
+      <dd>
+        Epic
+      </dd>
+      <dt>
+        +6
+      </dt>
+      <dd>
+        Fantastic
+      </dd>
+      <dt>
+        +5
+      </dt>
+      <dd>
+        Superb
+      </dd>
+      <dt>
+        +4
+      </dt>
+      <dd>
+        Great
+      </dd>
+      <dt>
+        +3
+      </dt>
+      <dd>
+        Good
+      </dd>
+      <dt>
+        +2
+      </dt>
+      <dd>
+        Fair
+      </dd>
+      <dt>
+        +1
+      </dt>
+      <dd>
+        Average
+      </dd>
+      <dt>
+        +0
+      </dt>
+      <dd>
+        Mediocre
+      </dd>
+      <dt>
+        -1
+      </dt>
+      <dd>
+        Poor
+      </dd>
+      <dt>
+        -2
+      </dt>
+      <dd>
+        Terrible
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Game Time
+    </h2>
+    <dl>
+      <dt>
+        Exchange
+      </dt>
+      <dd>
+        time for everyone to get a turn
+      </dd>
+      <dt>
+        Scene
+      </dt>
+      <dd>
+        time to resolve a situation
+      </dd>
+      <dt>
+        Session
+      </dt>
+      <dd>
+        a single sitting
+      </dd>
+      <dt>
+        Scenario
+      </dt>
+      <dd>
+        an episode
+      </dd>
+      <dt>
+        Arc
+      </dt>
+      <dd>
+        a season
+      </dd>
+      <dt>
+        Campaign
+      </dt>
+      <dd>
+        the entire game in a particular setting
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Skill Roll
+    </h2>
+    <p>
+      Roll four 
+      <em>
+        Fate dice
+      </em>
+       and add to 
+      <em>
+        skill rating
+      </em>
+      . Compare to opposition. For each step on the ladder greater than your opposition, you earn a 
+      <em>
+        shift
+      </em>
+      .
+    </p>
+  </div>
+  <div>
+    <h2>
+      Opposition Types
+    </h2>
+    <dl>
+      <dt>
+        Active
+      </dt>
+      <dd>
+        another character rolls against you
+      </dd>
+      <dt>
+        Passive
+      </dt>
+      <dd>
+        a static rating on the ladder
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Four Outcomes
+    </h2>
+    <dl>
+      <dt>
+        Fail
+      </dt>
+      <dd>
+        fail your action or succeed at major cost
+      </dd>
+      <dt>
+        Tie (0)
+      </dt>
+      <dd>
+        succeed at minor cost
+      </dd>
+      <dt>
+        Succeed (1—2)
+      </dt>
+      <dd>
+        succeed with no cost
+      </dd>
+      <dt>
+        Succeed with Style (&gt;3)
+      </dt>
+      <dd>
+        succeed with additional benefit
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Four Actions
+    </h2>
+    <dl>
+      <dt>
+        Overcome
+      </dt>
+      <dd>
+        get past an obstacle
+      </dd>
+      <dt>
+        Create an Advantage
+      </dt>
+      <dd>
+        invoke an aspect for free
+      </dd>
+      <dt>
+        Attack
+      </dt>
+      <dd>
+        harm another character
+      </dd>
+      <dt>
+        Defend
+      </dt>
+      <dd>
+        prevent attacks or advantages on you
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Mitigating Damage
+    </h2>
+    <p>
+      Fill in one stress box greater than or equal to the value of an attack, take one or more consequence, or fill in one stress box and take consequences—if you can’t do one of these three things, you’re taken out.
+    </p>
+  </div>
+  <div>
+    <h2>
+      Consequences
+    </h2>
+    <dl>
+      <dt>
+        Mild
+      </dt>
+      <dd>
+        -2 to attack value
+      </dd>
+      <dt>
+        Moderate
+      </dt>
+      <dd>
+        -4 to attack value
+      </dd>
+      <dt>
+        Severe
+      </dt>
+      <dd>
+        -6 to attack value
+      </dd>
+      <dt>
+        Extreme
+      </dt>
+      <dd>
+        -8 to attack value and permanent character aspect
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Recovery
+    </h2>
+    <dl>
+      <dt>
+        Mild
+      </dt>
+      <dd>
+        Overcome Fair, one whole scene
+      </dd>
+      <dt>
+        Moderate
+      </dt>
+      <dd>
+        Overcome Great, one whole session
+      </dd>
+      <dt>
+        Severe
+      </dt>
+      <dd>
+        overcome Fantastic, one whole scenario
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Aspect Types
+    </h2>
+    <dl>
+      <dt>
+        Game aspects
+      </dt>
+      <dd>
+        permanent, made during game creation
+      </dd>
+      <dt>
+        Character aspects
+      </dt>
+      <dd>
+        permanent, made during character creation
+      </dd>
+      <dt>
+        Situation aspects
+      </dt>
+      <dd>
+        last for a scene, until overcome, or until irrelevant
+      </dd>
+      <dt>
+        Boosts
+      </dt>
+      <dd>
+        last until invoked one time
+      </dd>
+      <dt>
+        Consequences
+      </dt>
+      <dd>
+        last until recovered
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Invoking Aspects
+    </h2>
+    <p>
+      Spend a fate point or free invoke. Choose one of the following:
+    </p>
+    <ul>
+      <li>
+        +2 to your skill roll
+      </li>
+      <li>
+        Reroll all your dice
+      </li>
+      <li>
+        Teamwork: +2 to another character's skill roll versus relevant passive opposition
+      </li>
+      <li>
+        Obstacle: +2 to the passive opposition
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h2>
+      Compelling Aspects
+    </h2>
+    <p>
+      Accept a complication for a fate point.
+    </p>
+    <dl>
+      <dt>
+        Event-based
+      </dt>
+      <dd>
+        You have ____ aspect and are in ____ situation, so it makes sense that, unfortunately, ____ would happen to you. Damn your luck.
+      </dd>
+      <dt>
+        Decision-based
+      </dt>
+      <dd>
+        You have ____ aspect in ____ situation, so it makes sense that you’d decide to ____. This goes wrong when ____ happens.
+      </dd>
+    </dl>
+  </div>
+  <div>
+    <h2>
+      Refresh
+    </h2>
+    <p>
+      At the start of a new session, you reset your fate points to your refresh rate. If you ended the last session with more points, you keep the extra. At the end of a scenario, you reset to your refresh rate no matter what.
+    </p>
+  </div>
+  <div>
+    <h2>
+      Spending Fate Points
+    </h2>
+    <p>
+      Spend fate points to
+    </p>
+    <ul>
+      <li>
+        Invoke an aspect
+      </li>
+      <li>
+        Power a stunt
+      </li>
+      <li>
+        Refuse a compel
+      </li>
+      <li>
+        Declare a story detail
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h2>
+      Challenges
+    </h2>
+    <ul>
+      <li>
+        Each obstacle or goal that requires a different skill gets an overcome roll.
+      </li>
+      <li>
+        Interpret failure, costs, and success of each roll together to determine final outcome.
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h2>
+      Contests
+    </h2>
+    <ul>
+      <li>
+        Contesting characters roll appropriate skills.
+      </li>
+      <li>
+        If you got the highest result, you score a victory.
+      </li>
+      <li>
+        If you succeed with style and no one else does, then you get two victories.
+      </li>
+      <li>
+        If there's a tie for the highest result, no one gets a victory, and an unexpected twist occurs.
+      </li>
+      <li>
+        The first participant to achieve three victories wins the contest.
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h2>
+      Conflicts
+    </h2>
+    <ul>
+      <li>
+        Set the scene, describing the environment the conflict takes place in, cre- ating situation aspects and zones, and establishing who’s participating and what side they’re on.
+      </li>
+      <li>
+        Determine the turn order.
+      </li>
+      <li>
+        Start the first exchange:
+      </li>
+      <ul>
+        <li>
+          On your turn, take an action and then resolve it.
+        </li>
+        <li>
+          On other people’s turns, defend or respond to their actions as necessary.
+        </li>
+        <li>
+          At the end of everyone’s turn, start again with a new exchange.
+        </li>
+      </ul>
+      <li>
+        Conflict is over when everyone on one side has conceded or been taken out.
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h2>
+      Earning Fate Points
+    </h2>
+    <p>
+      Earn fate points when you:
+    </p>
+    <ul>
+      <li>
+        Accept a compel
+      </li>
+      <li>
+        Have your aspects invoked against you
+      </li>
+      <li>
+        Concede a conflict
+      </li>
+    </ul>
+  </div>
+</div>
+`;
