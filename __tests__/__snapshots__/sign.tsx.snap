@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sign renders a minus when number is negative 1`] = `
+<span>
+  -
+</span>
+`;
+
+exports[`sign renders a plus when number is positive 1`] = `
+<span>
+  +
+</span>
+`;
