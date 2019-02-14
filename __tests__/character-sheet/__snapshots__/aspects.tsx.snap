@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h2>
+    Aspects
+  </h2>
+  <div>
+    <label>
+      <span>
+        High Concept
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="Disciple of the Ivory Shroud"
+        type="text"
+        value=""
+      />
+    </label>
+    <label>
+      <span>
+        Trouble
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="The manners of a goat"
+        type="text"
+        value=""
+      />
+    </label>
+    <label>
+      <span>
+        New Aspect
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="I owe Old Finn everything"
+        type="text"
+        value=""
+      />
+    </label>
+    <button
+      disabled={true}
+      onClick={[Function]}
+    >
+      Save Aspect
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<form>
+  <input
+    defaultValue=""
+    onChange={[Function]}
+    placeholder="Athletics"
+    type="text"
+  />
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Add Skill
+  </button>
+</form>
+`;

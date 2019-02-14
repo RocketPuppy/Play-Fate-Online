@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h2>
+    Stunts
+  </h2>
+  <form>
+    <div>
+      <div>
+        <label>
+          <span>
+            Name
+          </span>
+          <input
+            defaultValue=""
+            onChange={[Function]}
+            placeholder="Lucky"
+            type="text"
+          />
+        </label>
+        <label>
+          <span>
+            Description
+          </span>
+          <textarea
+            onChange={[Function]}
+            placeholder="Once per session you may roll a single dice to resolve a test. If you don't fail, succeed with style automatically."
+            value=""
+          />
+        </label>
+        <button
+          disabled={true}
+          onClick={[Function]}
+        >
+          Add new stunt
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders checked 1`] = `
+<label>
+  <span>
+    2
+  </span>
+  <input
+    checked={true}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</label>
+`;
+
+exports[`renders unchecked 1`] = `
+<label>
+  <span>
+    2
+  </span>
+  <input
+    checked={false}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</label>
+`;
+
+exports[`renders with the stress level 1`] = `
+<label>
+  <span>
+    2
+  </span>
+  <input
+    checked={false}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</label>
+`;

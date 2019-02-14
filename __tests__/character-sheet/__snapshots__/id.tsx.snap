@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h2>
+    Id
+  </h2>
+  <div>
+    <label>
+      <span>
+        Name
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="Landon"
+        type="text"
+      />
+    </label>
+    <label>
+      <span>
+        Description
+      </span>
+      <textarea
+        onChange={[Function]}
+        placeholder="A rough-mannered swordsman covered in ragged clothing."
+      />
+    </label>
+    <label>
+      <span>
+        Refresh
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="3"
+        type="number"
+      />
+    </label>
+  </div>
+</div>
+`;

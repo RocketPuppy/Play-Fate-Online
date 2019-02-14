@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a single consequences 1`] = `
+<div>
+  <label>
+    <span>
+      1
+    </span>
+    <span />
+    <input
+      defaultValue="One"
+      onChange={[Function]}
+      type="text"
+    />
+  </label>
+</div>
+`;
+
+exports[`renders nothing with no consequences 1`] = `<div />`;
+
+exports[`renders some consequences 1`] = `
+<div>
+  <label>
+    <span>
+      1
+    </span>
+    <span />
+    <input
+      defaultValue="One"
+      onChange={[Function]}
+      type="text"
+    />
+  </label>
+  <label>
+    <span>
+      2
+    </span>
+    <span>
+      Mild
+    </span>
+    <input
+      defaultValue="Two"
+      onChange={[Function]}
+      type="text"
+    />
+  </label>
+  <label>
+    <span>
+      3
+    </span>
+    <span />
+    <input
+      defaultValue="Three"
+      onChange={[Function]}
+      type="text"
+    />
+  </label>
+</div>
+`;

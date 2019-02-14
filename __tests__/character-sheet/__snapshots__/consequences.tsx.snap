@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the pieces 1`] = `
+<div>
+  <h2>
+    Consequences
+  </h2>
+  <div>
+    <h3>
+      Normal
+    </h3>
+    <div>
+      <label>
+        <span>
+          2
+        </span>
+        <span>
+          Mild
+        </span>
+        <input
+          defaultValue=""
+          onChange={[Function]}
+          type="text"
+        />
+      </label>
+      <label>
+        <span>
+          4
+        </span>
+        <span>
+          Moderate
+        </span>
+        <input
+          defaultValue=""
+          onChange={[Function]}
+          type="text"
+        />
+      </label>
+      <label>
+        <span>
+          6
+        </span>
+        <span>
+          Severe
+        </span>
+        <input
+          defaultValue=""
+          onChange={[Function]}
+          type="text"
+        />
+      </label>
+    </div>
+    <h3>
+      Physical
+    </h3>
+    <div />
+    <button
+      onClick={[Function]}
+    >
+      Add Consequence
+    </button>
+    <h3>
+      Mental
+    </h3>
+    <div />
+    <button
+      onClick={[Function]}
+    >
+      Add Consequence
+    </button>
+  </div>
+</div>
+`;

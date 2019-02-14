@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with the track name 1`] = `
+<div>
+  <h2>
+    stress track
+  </h2>
+  <div>
+    <label>
+      <span>
+        1
+      </span>
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </label>
+    <label>
+      <span>
+        2
+      </span>
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Add Stress
+    </button>
+  </div>
+</div>
+`;
