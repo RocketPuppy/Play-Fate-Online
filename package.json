@@ -38,6 +38,9 @@
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "test": "jest"
+    "test": "yarn format && yarn lint && yarn jest",
+    "lint": "tslint -p tsconfig.json -c tslint.json -t codeFrame --fix",
+    "format": "prettier --write --config .prettierrc \"{src, __tests__}/**/*.{ts,tsx}\"",
+    "jest": "jest"
   }
 }

@@ -3,8 +3,8 @@ import * as React from "react";
 import StatefulForm from "../stateful-form";
 import ConsequenceList, {
   Consequence,
-  getNextConsequenceLevel,
   getNextConsequenceId,
+  getNextConsequenceLevel,
   maxConsequences
 } from "./consequence-list";
 
@@ -18,8 +18,8 @@ class ConsequenceForm extends StatefulForm<ConsequenceData> {}
 
 const makeConsequence = (level: number, id: number): Consequence => ({
   description: "",
-  level,
-  id
+  id,
+  level
 });
 
 const initialConsequences = {
@@ -55,7 +55,10 @@ export default () => (
                 const newLevel = getNextConsequenceLevel(fields.physical);
                 if (newLevel) {
                   const newConsequences = R.concat(fields.physical, [
-                    makeConsequence(newLevel, getNextConsequenceId(fields.physical))
+                    makeConsequence(
+                      newLevel,
+                      getNextConsequenceId(fields.physical)
+                    )
                   ]);
                   onChange("physical", newConsequences);
                 }
@@ -77,7 +80,10 @@ export default () => (
                 const newLevel = getNextConsequenceLevel(fields.mental);
                 if (newLevel) {
                   const newConsequences = R.concat(fields.mental, [
-                    makeConsequence(newLevel, getNextConsequenceId(fields.mental))
+                    makeConsequence(
+                      newLevel,
+                      getNextConsequenceId(fields.mental)
+                    )
                   ]);
                   onChange("mental", newConsequences);
                 }

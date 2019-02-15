@@ -33,9 +33,7 @@ export const getNextConsequenceLevel = (
   }
 };
 
-export const getNextConsequenceId = (
-  consequences: Consequence[]
-): number => {
+export const getNextConsequenceId = (consequences: Consequence[]): number => {
   const maxId = R.reduce(R.max, 0, R.map(c => c.id, consequences));
 
   return maxId + 1;
