@@ -56,7 +56,7 @@ export default ({ consequences, onChange }: Props) => (
   <div>
     {mapWithLens(
       (consequence, consequenceLens) => (
-        <label>
+        <label key={consequence.id}>
           <span>{consequence.level}</span>
           <span>{consequenceLevelMapping.get(consequence.level)}</span>
           <input
