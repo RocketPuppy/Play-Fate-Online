@@ -34,6 +34,7 @@ export default ({ trackName }: Props) => (
           {mapWithLens(
             (stress, stressLens) => (
               <StressBox
+                key={stress.level}
                 stressLevel={stress.level}
                 used={stress.used}
                 onUse={used => {
