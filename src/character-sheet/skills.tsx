@@ -35,7 +35,7 @@ export default () => (
         <form>
           {mapWithLens(
             (skillRow, rowLens) => (
-              <label>
+              <label key={skillRow.level}>
                 <span>{ladderMapping.get(skillRow.level)}</span>
                 <span>
                   (<Sign num={skillRow.level} />
@@ -44,6 +44,7 @@ export default () => (
                 {mapWithLens(
                   (skillName, skillLens) => (
                     <input
+                      key={`${skillRow.level}-${skillName}`}
                       defaultValue={skillName}
                       type="text"
                       onChange={e => {
