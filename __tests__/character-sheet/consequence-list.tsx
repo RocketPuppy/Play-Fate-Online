@@ -12,7 +12,7 @@ test("renders nothing with no consequences", () => {
 
 test("renders a single consequences", () => {
   const consequences = [
-    { description: "One", level: 1 }
+    { description: "One", level: 1, id: 1 }
   ];
   const render = renderer.create(<ConsequenceList consequences={consequences} onChange={noop} />);
 
@@ -21,9 +21,9 @@ test("renders a single consequences", () => {
 
 test("renders some consequences", () => {
   const consequences = [
-    { description: "One", level: 1 },
-    { description: "Two", level: 2 },
-    { description: "Three", level: 3 }
+    { description: "One", level: 1, id: 1 },
+    { description: "Two", level: 2, id: 2 },
+    { description: "Three", level: 3, id: 3 }
   ];
   const render = renderer.create(<ConsequenceList consequences={consequences} onChange={noop} />);
 

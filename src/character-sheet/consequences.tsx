@@ -4,6 +4,7 @@ import StatefulForm from "../stateful-form";
 import ConsequenceList, {
   Consequence,
   getNextConsequenceLevel,
+  getNextConsequenceId,
   maxConsequences
 } from "./consequence-list";
 
@@ -15,14 +16,15 @@ interface ConsequenceData {
 
 class ConsequenceForm extends StatefulForm<ConsequenceData> {}
 
-const makeConsequence = (level: number): Consequence => ({
+const makeConsequence = (level: number, id: number): Consequence => ({
   description: "",
-  level
+  level,
+  id
 });
 
 const initialConsequences = {
   mental: [],
-  normal: [makeConsequence(2), makeConsequence(4), makeConsequence(6)],
+  normal: [makeConsequence(2, 1), makeConsequence(4, 2), makeConsequence(6, 3)],
   physical: []
 };
 
@@ -53,7 +55,7 @@ export default () => (
                 const newLevel = getNextConsequenceLevel(fields.physical);
                 if (newLevel) {
                   const newConsequences = R.concat(fields.physical, [
-                    makeConsequence(newLevel)
+                    makeConsequence(newLevel, getNextConsequenceId(fields.physical))
                   ]);
                   onChange("physical", newConsequences);
                 }
@@ -75,7 +77,7 @@ export default () => (
                 const newLevel = getNextConsequenceLevel(fields.mental);
                 if (newLevel) {
                   const newConsequences = R.concat(fields.mental, [
-                    makeConsequence(newLevel)
+                    makeConsequence(newLevel, getNextConsequenceId(fields.mental))
                   ]);
                   onChange("mental", newConsequences);
                 }
