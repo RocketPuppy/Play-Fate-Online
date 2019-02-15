@@ -1,24 +1,16 @@
 import * as React from "react";
 import StatefulForm from "../stateful-form";
+import { PhaseInfo, PhaseTrio } from "./types";
 
-interface Phase {
-  backstory?: string;
-  aspect?: string;
-}
+type InProgressPhaseTrio = PhaseTrio<Partial<PhaseInfo>>;
 
-interface PhaseTrio {
-  adventure: Phase;
-  firstCrossing: Phase;
-  secondCrossing: Phase;
-}
-
-const initialPhaseTrio: PhaseTrio = {
+const initialPhaseTrio: InProgressPhaseTrio = {
   adventure: {},
   firstCrossing: {},
   secondCrossing: {}
 };
 
-class PhaseTrioForm extends StatefulForm<PhaseTrio> {}
+class PhaseTrioForm extends StatefulForm<InProgressPhaseTrio> {}
 
 const adventureBackstoryPlaceholder: string =
   "Landon gets into a bar fight with some of the scar triad. He is robbed of his sword and beaten severely. His life is saved by a veteran soldier named Old Finn. Finn helps to heal Landon, clean him up, and enlist him in the town militia.";

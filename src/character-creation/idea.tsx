@@ -1,11 +1,8 @@
 import * as React from "react";
 import StatefulForm from "../stateful-form";
+import { BasicInfo } from "./types";
 
-interface IdeaFields {
-  highConcept?: string;
-  trouble?: string;
-  name?: string;
-}
+type IdeaFields = Partial<BasicInfo>;
 
 class IdeaForm extends StatefulForm<IdeaFields> {}
 
